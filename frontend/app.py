@@ -1,3 +1,5 @@
+# Improved UI visualisation and labelling for better clarity.
+
 import streamlit as st
 import subprocess
 import pandas as pd
@@ -39,7 +41,7 @@ if st.button("Run Scheduler"):
 
     # GANTT CHART
 
-    st.subheader("Gantt Chart")
+    st.subheader("Process Execution Visualisation")
 
     gantt_line = [l.strip() for l in lines if "P" in l][-1]
     gantt = gantt_line.split()
