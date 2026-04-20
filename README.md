@@ -40,8 +40,11 @@ How to Run
 1. Compile backend:
    ```bash
    gcc scheduler.c -o scheduler
+   ```
+   
 
 2. Run Streamlit app:
 
 ```bash
 streamlit run frontend/app.py
+```
